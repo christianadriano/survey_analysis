@@ -2,11 +2,11 @@ ID,Question,Alternatives,Details
 B001,Is your desired or current degree program a PhD?,1:Yes;2:No,Desired/Current Degree Program
 B002,Enrollment status:,1:Enrolled at University of Potsdam ;2:Enrolled at another university (please specify which);3:Not officially enrolled ,Enrollment Status
 B002_02,,,Enrollment Status: Enrolled at another university (please specify which)
-B003,If not officially enrolled:,1:Intend to enroll;2:Intend to re-enroll;5:Do not intend to finish PhD,Enrollment : Residual option (negative) or number of selected options
+B003,Are you officially enrolled?,0:Yes;1:No but intend to enroll;2:No but intend to re-enroll;5:No and do not intend to finish PhD, Enrollment : Residual option (negative) or number of selected options
 B003_01,,,Enrollment : Intend to enroll
 B003_02,,,Enrollment : Intend to re-enroll
 B003_05,,,Enrollment : Do not intend to finish PhD
-B004,Gender,,Gender
+B004,Gender,1:Female;2:Male;3:Non-binary;4:Diverse,Gender
 B005,Age,,Age
 B006,Years at HPI ,,Years at HPI : Residual option (negative) or number of selected options
 B006_01,,,Years at HPI : 1 year or less
