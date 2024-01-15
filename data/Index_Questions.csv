@@ -17,7 +17,7 @@ B007,Citizenship,,Citizenship
 B009,German Proficiency,,German Proficiency
 B010,English Proficiency,,English Proficiency
 B011,In which language will you write the dissertation,,Dissertation
-C001,How were you made aware of the opportunity to do a PhD at the HPI?,,Made Aware : Residual option (negative) or number of selected options
+C001,How were you made aware of the opportunity to do a PhD at the HPI?,C001_01:Web;C001_02:Newsletters;C001_03:Academic conferences;C001_04:Friends/colleagues;C001_05:I completed my Bachelor/Master at HPI;C001_06:Other,Made Aware : Residual option (negative) or number of selected options
 C001_01,,,Made Aware : Web
 C001_02,,,Made Aware : Newsletters
 C001_03,,,Made Aware : Academic conferences
@@ -103,7 +103,7 @@ G006_02,,,Events/Workshops E-School: No (why not: no interest; not available at 
 G007,Can you imagine launching a start-up?,,Start-Up
 G007_01,,,Start-Up: Yes
 G008,Are you aware of the events and workshops organized by D-school? ,,Events/Workshops D-School
-G009,Are you aware of the events offered by HPI’s International Student and Scholar Services?  There was for example a biweekly global chat and a biweekly PhD and Postdoc Dialogue offered. If you knew about it; but did not attend; why did you not attend? No interest; not available at the offered times; too busy; prefer a different format.,,ISSS
+G009,Are you aware of the events offered by HPIï¿½s International Student and Scholar Services?  There was for example a biweekly global chat and a biweekly PhD and Postdoc Dialogue offered. If you knew about it; but did not attend; why did you not attend? No interest; not available at the offered times; too busy; prefer a different format.,,ISSS
 G009_02,,,ISSS: No
 G011,Are you aware of career talks and colloquia organized by your research chair or the Forschungskolleg (Research School)?,,Events Forschungskolleg
 H004,Do you meet regularly with your first supervisor to discuss your progress on the dissertation? ,,Meetings Supervisor
@@ -120,7 +120,7 @@ H012,Do you have enough opportunity to present your work in different formats (a
 H013_01,Are there other regular meetings that you attend?,,Regular Meetings: Describe other meetings here
 H014,Do you feel you belong to a positive-spirited; inspiring and motivated group of researchers at HPI? ,,Research Group
 H015,Do you have teaching duties (formally specified by your contract)?,,Teaching Duties
-H016,If you don’t have teaching duties (as part of a work contract); are you still included in the teaching?,,Included in Teaching
+H016,If you donï¿½t have teaching duties (as part of a work contract); are you still included in the teaching?,,Included in Teaching
 H017,Do you/Did you wish to gain teaching experience during your time at the HPI?,,Teaching Experience
 I001_01,Are you able to balance work tasks for your position and your own study goals? ,,Work Balance: Scale
 I004_02,Have you experienced any of the following situations or similar situations? ,,Situations : Irritability
@@ -157,12 +157,12 @@ I008_17,,,Major Issues: I have no concerns
 I008_18,,,Major Issues: Other
 I008_18a,,,Major Issues: Other (free text)
 I009,If you have dealt with conflict or experienced discrimination but did not report it; what was the reason why? ,,Experienced Discrimination : Residual option (negative) or number of selected options
-I009_01,,,Experienced Discrimination : I didn’t think it would be resolved.
+I009_01,,,Experienced Discrimination : I didnï¿½t think it would be resolved.
 I009_02,,,Experienced Discrimination : I was afraid of repercussions.
-I009_03,,,Experienced Discrimination : I didn’t think the issue was severe enough.
+I009_03,,,Experienced Discrimination : I didnï¿½t think the issue was severe enough.
 I009_04,,,Experienced Discrimination : I thought I could handle it myself.
-I009_05,,,Experienced Discrimination : I wasn’t sure of whom I could report it to.
-I009_06,,,Experienced Discrimination : I didn’t feel the points of contact that I knew of were trained to handle this type of situation.
+I009_05,,,Experienced Discrimination : I wasnï¿½t sure of whom I could report it to.
+I009_06,,,Experienced Discrimination : I didnï¿½t feel the points of contact that I knew of were trained to handle this type of situation.
 I009_07,,,Experienced Discrimination : I prefer not to answer.
 I009_08,,,Experienced Discrimination : I never experienced conflict.
 I009_09,,,Experienced Discrimination : I never experienced discrimination.
