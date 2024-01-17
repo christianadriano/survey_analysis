@@ -1,6 +1,7 @@
 #Pre-Process data
 
 import pandas as pd
+import numpy as np
 
 #-----------------------------------------------------------------
 def generate_options_dictionary(filtered_df):
@@ -39,26 +40,25 @@ def generate_options_dictionary(filtered_df):
     return options_dict
 
 #----------------------------------------------------------------
-def count_percentages_options(filtered_df,options_columns,options_names,selected_code):
+def percentage_options(filtered_df,options_columns,options_names,selected_code):
     
-    # select the columns that will be counted.
-    df_sum = filtered_df[options_columns]
+     # select the columns that will be counted.
+    df = filtered_df[options_columns]
 
     # Count occurrences of the number 2 in each column
-    count_selected = df_sum(selected_code).sum()
-    print(count_selected)
+    count_selected = np.array([len(df[df[x]==selected_code]) for x in options_columns])
+    total_count = sum(count_selected)
+    count_column = np.append(count_selected,total_count)
+    percentage_selected = np.round((count_column / total_count) * 100,2)
 
-    total_count = df_sum.count()
-    
-    percentage_selected = (count_selected / total_count) * 100
+    options_names=np.append(options_names,["TOTAL"])
 
     # Create a summary DataFrame
     summary_df = pd.DataFrame({
         'Option': options_names,
-        'Count': count_selected.values,
-        'Percentage': percentage_selected.values
+        'Count': count_column,
+        'Percentage': percentage_selected   
     })
-
-    print(summary_df)
+    return summary_df
     
     #---------------------------------------------------------------
