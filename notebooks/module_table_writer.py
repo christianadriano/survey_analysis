@@ -3,7 +3,7 @@ import numpy as np
 import os as os
     
 def display_value_counts(data_frame, question_id, question_title, filter_column=None, 
-                         filter_value=None, count_by_column=None, styles=None,column_format="@{}lcc"):
+                         filter_value=None, count_by_column=None, column_format="@{}lcc"):
 
     if filter_column and filter_value:
         filtered_df = data_frame[data_frame[filter_column] == filter_value]
@@ -27,13 +27,6 @@ def display_value_counts(data_frame, question_id, question_title, filter_column=
     }
     count_df = pd.DataFrame(data)
     count_df.reset_index(inplace=True)
-        
-    if styles is not None:
-        count_df_styled = count_df.style.set_table_styles(styles)
-        display(count_df_styled)
-    else:
-        display(count_df)
-    
 
     latex_table = write_latex_table(count_df,False, filter_value, 
                                     question_id, question_title,column_format)
@@ -43,6 +36,12 @@ def display_value_counts(data_frame, question_id, question_title, filter_column=
 def write_latex_table(data_df, show_index, filter_value, 
                       question_id, question_title,column_format):
     """ Generate Latex table and save to file"""
+    
+    #if styles is not None:
+    #    count_df = data_df.style.set_table_styles(styles)
+    #else:
+    #    count_df=data_df
+
     table_caption=f'{filter_value} answers for {question_id}-{question_title}'
     label_name = f'{question_id}-{filter_value}_table'
     label_name = label_name.replace('(','')
