@@ -63,4 +63,18 @@ def percentage_options(df_data,options_columns,options_names,selected_code):
     
     return count_df
 
-    #---------------------------------------------------------------
+#------------------------------------------------------------------------
+def replace_code_for_name(data_frame,column_key, dictionary_for_column):
+        
+    #names = dictionary_for_column.values()
+    keys = dictionary_for_column.keys()
+        
+    for key in keys:
+        name = dictionary_for_column.get(key)
+        data_frame[column_key]= data_frame[column_key].replace(key, name)
+    
+    return data_frame
+
+#------------------------------------------------------------------------
+        
+        
