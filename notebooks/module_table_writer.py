@@ -1,36 +1,7 @@
 import pandas as pd
 import numpy as np
 import os as os
-    
-def display_value_counts(data_frame, question_id, question_title, filter_column=None, 
-                         filter_value=None, count_by_column=None, column_format="@{}lcc"):
-
-    if filter_column and filter_value:
-        filtered_df = data_frame[data_frame[filter_column] == filter_value]
-    else:
-        filtered_df = data_frame
-        
-    print(filter_value)
-    
-    if(count_by_column== None):
-        counts=0
-        percentages=0
-    else:
-        counts = filtered_df[count_by_column].value_counts()
-        percentages = round((counts / counts.sum()) * 100,2)
-        
-    formattedList = ["%.2f" % member for member in percentages]
-    print(formattedList)
-    data = {
-        'Counts': counts,
-        'Percentages': formattedList
-    }
-    count_df = pd.DataFrame(data)
-    count_df.reset_index(inplace=True)
-
-    latex_table = write_latex_table(count_df,False, filter_value, 
-                                    question_id, question_title,column_format)
-    return latex_table 
+import module_table_writer as table_writer
 
 #-----------------------------------------
 def write_latex_table(data_df, show_index, filter_value, 
@@ -61,7 +32,7 @@ def table_to_file(df_data, tables_path, tables_file_name):
         os.makedirs(tables_path)
 
     file_name = f'{tables_path}{tables_file_name}_tables.tex'
-    print("file_name" + file_name)
+    #print("file_name" + file_name)
     
     if(not os.path.isfile(file_name)):
         with open(file_name, 'w') as out:
