@@ -4,11 +4,11 @@ import pandas as pd
 import numpy as np
 
 #-----------------------------------------------------------------
-def generate_options_dictionary(filtered_df):
+def generate_options_dictionary(filtered_df, options_column_name):
     """LOAD Alternatives for the Question into a dictionary"""
 
     # Split the string into key-value pairs
-    answer_options = filtered_df['Alternatives']
+    answer_options = filtered_df[options_column_name]
 
     # Split the string into key-value pairs and flatten the list of lists 
     # This is necessary because Pandas DataFrame is horrible, it always returns a series instead of a primitive object like a string or something.
