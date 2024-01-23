@@ -1,223 +1,223 @@
-ID,Question,Alternatives,Details
-B001,Is your desired or current degree program a PhD?,1:Yes;2:No,Desired/Current Degree Program
-B002,Enrollment status:,1:Enrolled at University of Potsdam ;2:Enrolled at another university (please specify which);3:Not officially enrolled ,Enrollment Status
-B002_02,,,Enrollment Status: Enrolled at another university (please specify which)
-B003,Are you officially enrolled?,0:Yes;1:No but intend to enroll;2:No but intend to re-enroll;5:No and do not intend to finish PhD, Enrollment : Residual option (negative) or number of selected options
-B003_01,,,Enrollment : Intend to enroll
-B003_02,,,Enrollment : Intend to re-enroll
-B003_05,,,Enrollment : Do not intend to finish PhD
-B004,Gender,1:Female;2:Male;3:Non-binary;4:Diverse,Gender
-B005,Age,,Age
-B006,Years at HPI ,,Years at HPI : Residual option (negative) or number of selected options
-B006_01,,,Years at HPI : 1 year or less
-B006_02,,,Years at HPI : 2 years
-B006_03,,,Years at HPI : 3 years
-B006_04,,,Years at HPI : More than 4 years
-B007,Citizenship,,Citizenship
-B009,German Proficiency,,German Proficiency
-B010,English Proficiency,,English Proficiency
-B011,In which language will you write the dissertation,,Dissertation
-C001,How were you made aware of the opportunity to do a PhD at the HPI?,C001_01:Web;C001_02:Newsletters;C001_03:Academic conferences;C001_04:Friends/colleagues;C001_05:I completed my Bachelor/Master at HPI;C001_06:Other,Made Aware : Residual option (negative) or number of selected options
-C001_01,,,Made Aware : Web
-C001_02,,,Made Aware : Newsletters
-C001_03,,,Made Aware : Academic conferences
-C001_04,,,Made Aware : Friends/colleagues
-C001_05,,,Made Aware : I completed my Bachelor/Master at HPI
-C001_06,,,Made Aware : Other
-C002,Was the application/enrollment process for the PhD clear; and straightforward? ,C002_01:Yes;C002_02:No,Application Process : Residual option (negative) or number of selected options
-C002_01,,,Application Process : Yes
-C002_01a,,,Application Process : Yes (free text)
-C002_02,,,Application Process : No
-C002_02a,,,Application Process : No (free text)
-C003,Did you have a formal onboarding? Please elaborate. ,C003_01:Yes;C003_02:No,Enrollment/Onboarding: Residual option (negative) or number of selected options
-C003_01,,,Enrollment/Onboarding: Yes
-C003_01a,,,Enrollment/Onboarding: Yes (free text)
-C003_02,,,Enrollment/Onboarding: No
-C003_02a,,,Enrollment/Onboarding: No (free text)
-C004,Were you made aware of the DEF [[https://hpi.de/fileadmin/user_upload/hpi/dokumente/studiendokumente/2020_06_Promotionsordnung_DEF.pdf|Promotionsordnung]]?,C004_01:Yes;C004_02:No,Promotionsordnung : Residual option (negative) or number of selected options
-C004_01,,,Promotionsordnung : Yes
-C004_02,,,Promotionsordnung : No
-C006_01,If you would like to complete the PhD; but have not yet enrolled as a doctoral student please explain why:,,Enrollment Doctoral Student: [01]
-C007,Was the onboarding process clear or did you feel any information or contact person was missing?,C007_01:Yes;C007_02:No,Oboarding Process: Residual option (negative) or number of selected options
-C007_01,,,Oboarding Process: Yes
-C007_01a,,,Oboarding Process: Yes (free text)
-C007_02,,,Oboarding Process: No
-C007_02a,,,Oboarding Process: No (free text)
-D001,In general; was it easy to settle at the HPI as a new member?,,Settling
-D001_02,,,Settling: No (What were the challenges? (e.g.; administrative; language; communication...) Please specify.
-D003,Do you feel satisfied with your level of connection to peers and others?,,Connection Peers
-D004,How are you connected to your peers and others at the HPI?,D004_01:Social Media;D004_02:Mailing List (official);D004_03:Messaging Apps (e.g. Telegram);D004_04:Events (e.g. Friday Beers);D004_06:Official contacts at HPI-University of Potsdam;D004_07:Slack;D004_08:Linked-In;D004_09:Other,D004_09a:Other (free text)
-D004_01,,,Connection General: Social Media
-D004_02,,,Connection General: Mailing List (official)
-D004_03,,,Connection General: Messaging Apps (e.g.; Telegram)
-D004_04,,,Connection General: Events (e.g.; Friday Beers)
-D004_06,,,Connection General: Official contacts at HPI; University of Potsdam
-D004_07,,,Connection General: Slack
-D004_08,,,Connection General: Linked-In
-D004_09,,,Connection General: Other
-D004_09a,,,Connection General: Other (free text)
-D017,Are you aware of events organized by the University of Potsdam Graduate School [[https://www.uni-potsdam.de/en/pogs|PoGS]]?,,Additional Formats PoGS
-D011,Did your research chair organize welcome events?,,Events Research Chair
-D011_01,,,Events Research Chair : Yes
-D012,Are you aware of any social events; and activities organized by your research chair or the Forschungskolleg (Research School)? ,,Further Events
-D019_01,Are there any additional or other formats you would have liked? ,,Other Formats: [01]
-D021_01,Do you have any ideas for additional development events or trainings that should be organized at the HPI?,,Event Suggestions : [01]
-D022,Would you like to see similar or additional event formats at HPI? ,,Event Formats
-E007,If you receive a scholarship from HPI; do you think the offer is competitive with other universities? ,,Competition
-E008,If you hold a scientific staff position at HPI; do you think the monthly salary is competitive with other universities?,,Salary
-E009,What is the duration of the longest contract you have received from HPI (as a stipend recipient or as a scientific worker),,Contract Duration
-E011,Which source of funding would you like to have?,,Work Contract or Scholarship
-F001,ACADEMIC COMMUNITY: Do you attend regular meetings of your chair?,,Meetings
-F007,Are you satisfied with the technical infrastructure at the HPI?,,Laboratories
-F008_01,What do you like most as a doctoral researcher at the HPI? ,,Most Liked : [01]
-F009_01,What would you like to see change for doctoral students at the HPI?  ,,Changes : [01]
-F010,How often would you like to present your work?,,Presenting Work
-F010_06,,,Presenting Work : other
-F022,Do you know which cluster you belong to?,,Clusters
-F022_06,,,Clusters : Yes
-F015,Are you satisfied with the topic of your dissertation?,,Content Dissertation
-F016,Would you like to have the opportunity to spend a semester abroad during doctoral study?,,Study Abroad
-F017,Do you have enough dedicated time to spend on your dissertation? Please elaborate on challenges. ,,Dedicated Time for Dissertation
-F017_01,,,Dedicated Time for Dissertation : Yes
-F017_02,,,Dedicated Time for Dissertation : No
-F019,How many hours per week do you dedicate to the PhD:,,PhD Hours
-F018_01,When events are planned for doctoral students; do you prefer them to be held in the morning; afternoon or evening?,,Time of Events: [01]
-F023,Do you feel well supported as a PhD researcher at HPI?,,Support as a PhD researcher
-F023_01,,,Support as a PhD researcher: Yes
-F023_02,,,Support as a PhD researcher: No
-F024,Would you like to spend more time on your research?,,Time Research
-F025_01,What are the main obstacles to doing that?,,Obstacles: [01]
-F026_01,Which other regular research related meetings do you attend? ,,Regular Research Meetings: [01]
-F027_01,What activities would you like to see take place within clusters?,,Cluster Activities: [01]
-G001,Are you aware of HPI and University of  Potsdam governing bodies and their role? ,,Governing Bodies
-G002,As doctoral student member would you like to participate in such bodies? ,,Participation Bodies
-G002_01,,,Participation Bodies: Yes
-G002_02,,,Participation Bodies: No
-G003,Are you aware of the following offices and their roles? ,,Existing Offices
-G004,Have you faced any difficulty in accessing administrative level resources (HR; IT; Facility Management; Media Support; Studienreferat; etc.),,Accessing Administrative Resources
-G004_06,,,Accessing Administrative Resources : Yes
-G005,Did you attend career related events at HPI such as job fairs; HPI Meets? ,,Career Related Events
-G005_02,,,Career Related Events: No (why not: no interest; not available at the offered times; too busy; prefer a different format.)
-G006,Are you aware of the events and workshops organized by E-school? Mark all that you are aware of. ,,Events/Workshops E-School
-G006_02,,,Events/Workshops E-School: No (why not: no interest; not available at the offered times; too busy; prefer a different format.)
-G007,Can you imagine launching a start-up?,,Start-Up
-G007_01,,,Start-Up: Yes
-G008,Are you aware of the events and workshops organized by D-school? ,,Events/Workshops D-School
-G009,Are you aware of the events offered by HPI�s International Student and Scholar Services?  There was for example a biweekly global chat and a biweekly PhD and Postdoc Dialogue offered. If you knew about it; but did not attend; why did you not attend? No interest; not available at the offered times; too busy; prefer a different format.,,ISSS
-G009_02,,,ISSS: No
-G011,Are you aware of career talks and colloquia organized by your research chair or the Forschungskolleg (Research School)?,,Events Forschungskolleg
-H004,Do you meet regularly with your first supervisor to discuss your progress on the dissertation? ,,Meetings Supervisor
-H005,Do you find the frequency and the content of these meetings satisfactory? ,,Frequency and Content of Meetings
-H006,Would you like to see a formal annual review by the first supervisor? ,,Annual Review
-H007,Do you feel the feedback you receive from your supervisor on the quality of your work is sufficient?,,Feedback Quality of Work
-H008,Do you feel there is enough opportunity to interact with/receive feedback from other professors? ,,Feedback Other HPI Faculty
-H009,There is a focus on publishing. Do you feel there is adequate support in finding topics for academic papers and selecting appropriate journals? ,,Academic Support
-H011,Would you like to see more structured program offerings to all PhD students? ,,More Structured Programs
-H001_01,Do you have a good relationship with your first academic-supervisor/mentor? ,,Relationship Supervisor : Scale
-H002_01,What could be done to support the above relationship?,,Improving Relationship : [01]
-H003,Does your chair hold regular meetings?,,On-Campus support
-H012,Do you have enough opportunity to present your work in different formats (at HPI)?,,Presenting Work
-H013_01,Are there other regular meetings that you attend?,,Regular Meetings: Describe other meetings here
-H014,Do you feel you belong to a positive-spirited; inspiring and motivated group of researchers at HPI? ,,Research Group
-H015,Do you have teaching duties (formally specified by your contract)?,,Teaching Duties
-H016,If you don�t have teaching duties (as part of a work contract); are you still included in the teaching?,,Included in Teaching
-H017,Do you/Did you wish to gain teaching experience during your time at the HPI?,,Teaching Experience
-I001_01,Are you able to balance work tasks for your position and your own study goals? ,,Work Balance: Scale
-I004_02,Have you experienced any of the following situations or similar situations? ,I004_03:Depression;I004_04:Difficulty in concentrating;I004_05:Anxiety,Situations : Irritability
-I004_03,,,Situations : Depression
-I004_04,,,Situations : Difficulty in concentrating
-I004_05,,,Situations : Anxiety
-I005_01,If you have experienced other situations that were not mentioned in the previous question; please add them here. ,,Other Experiences : [01]
-I006_01,How did you cope with it? ,,Coping: [01]
-I007,Did you ever consider not completing your PhD?,,Not Completing PhD
-I007_01,,,Not Completing PhD: Yes
+ID,Question,Alternatives,Details,,,,,,,,,,
+B001,Is your desired or current degree program a PhD?,1:Yes;2:No,Desired/Current Degree Program,,,,,,,,,,
+B002,Enrollment status:,1:Enrolled at University of Potsdam ;2:Enrolled at another university (please specify which);3:Not officially enrolled ,Enrollment Status,,,,,,,,,,
+B002_02,,,Enrollment Status: Enrolled at another university (please specify which),,,,,,,,,,
+B003,Are you officially enrolled?,0:Yes;1:No but intend to enroll;2:No but intend to re-enroll;5:No and do not intend to finish PhD, Enrollment : Residual option (negative) or number of selected options,,,,,,,,,,
+B003_01,,,Enrollment : Intend to enroll,,,,,,,,,,
+B003_02,,,Enrollment : Intend to re-enroll,,,,,,,,,,
+B003_05,,,Enrollment : Do not intend to finish PhD,,,,,,,,,,
+B004,Gender,1:Female;2:Male;3:Non-binary;4:Diverse,Gender,,,,,,,,,,3.Non-EU
+B005,Age,,Age,,,,,,,,,,2.EU
+B006,Years at HPI ,,Years at HPI : Residual option (negative) or number of selected options,,,,,,,,,,1.Germany
+B006_01,,,Years at HPI : 1 year or less,,,,,,,,,,empty
+B006_02,,,Years at HPI : 2 years,,,,,,,,,,
+B006_03,,,Years at HPI : 3 years,,,,,,,,,,
+B006_04,,,Years at HPI : More than 4 years,,,,,,,,,,
+B007,Citizenship,1:Non-EU;2:EU;3:Germany,Citizenship,,,,,,,,,,
+B009,German Proficiency,,German Proficiency,,,,,,,,,,
+B010,English Proficiency,,English Proficiency,,,,,,,,,,
+B011,In which language will you write the dissertation,,Dissertation,,,,,,,,,,
+C001,How were you made aware of the opportunity to do a PhD at the HPI?,C001_01:Web;C001_02:Newsletters;C001_03:Academic conferences;C001_04:Friends/colleagues;C001_05:I completed my Bachelor/Master at HPI;C001_06:Other,Made Aware : Residual option (negative) or number of selected options,,,,,,,,,,
+C001_01,,,Made Aware : Web,,,,,,,,,,
+C001_02,,,Made Aware : Newsletters,,,,,,,,,,
+C001_03,,,Made Aware : Academic conferences,,,,,,,,,,
+C001_04,,,Made Aware : Friends/colleagues,,,,,,,,,,
+C001_05,,,Made Aware : I completed my Bachelor/Master at HPI,,,,,,,,,,
+C001_06,,,Made Aware : Other,,,,,,,,,,
+C002,Was the application/enrollment process for the PhD clear; and straightforward? ,C002_01:Yes;C002_02:No,Application Process : Residual option (negative) or number of selected options,,,,,,,,,,
+C002_01,,,Application Process : Yes,,,,,,,,,,
+C002_01a,,,Application Process : Yes (free text),,,,,,,,,,
+C002_02,,,Application Process : No,,,,,,,,,,
+C002_02a,,,Application Process : No (free text),,,,,,,,,,
+C003,Did you have a formal onboarding? Please elaborate. ,C003_01:Yes;C003_02:No,Enrollment/Onboarding: Residual option (negative) or number of selected options,,,,,,,,,,
+C003_01,,,Enrollment/Onboarding: Yes,,,,,,,,,,
+C003_01a,,,Enrollment/Onboarding: Yes (free text),,,,,,,,,,
+C003_02,,,Enrollment/Onboarding: No,,,,,,,,,,
+C003_02a,,,Enrollment/Onboarding: No (free text),,,,,,,,,,
+C004,Were you made aware of the DEF [[https://hpi.de/fileadmin/user_upload/hpi/dokumente/studiendokumente/2020_06_Promotionsordnung_DEF.pdf|Promotionsordnung]]?,C004_01:Yes;C004_02:No,Promotionsordnung : Residual option (negative) or number of selected options,,,,,,,,,,
+C004_01,,,Promotionsordnung : Yes,,,,,,,,,,
+C004_02,,,Promotionsordnung : No,,,,,,,,,,
+C006_01,If you would like to complete the PhD; but have not yet enrolled as a doctoral student please explain why:,,Enrollment Doctoral Student: [01],,,,,,,,,,
+C007,Was the onboarding process clear or did you feel any information or contact person was missing?,C007_01:Yes;C007_02:No,Oboarding Process: Residual option (negative) or number of selected options,,,,,,,,,,
+C007_01,,,Oboarding Process: Yes,,,,,,,,,,
+C007_01a,,,Oboarding Process: Yes (free text),,,,,,,,,,
+C007_02,,,Oboarding Process: No,,,,,,,,,,
+C007_02a,,,Oboarding Process: No (free text),,,,,,,,,,
+D001,In general; was it easy to settle at the HPI as a new member?,,Settling,,,,,,,,,,
+D001_02,,,Settling: No (What were the challenges? (e.g.; administrative; language; communication...) Please specify.,,,,,,,,,,
+D003,Do you feel satisfied with your level of connection to peers and others?,,Connection Peers,,,,,,,,,,
+D004,How are you connected to your peers and others at the HPI?,D004_01:Social Media;D004_02:Mailing List (official);D004_03:Messaging Apps (e.g. Telegram);D004_04:Events (e.g. Friday Beers);D004_06:Official contacts at HPI-University of Potsdam;D004_07:Slack;D004_08:Linked-In;D004_09:Other,D004_09a:Other (free text),,,,,,,,,,
+D004_01,,,Connection General: Social Media,,,,,,,,,,
+D004_02,,,Connection General: Mailing List (official),,,,,,,,,,
+D004_03,,,Connection General: Messaging Apps (e.g.; Telegram),,,,,,,,,,
+D004_04,,,Connection General: Events (e.g.; Friday Beers),,,,,,,,,,
+D004_06,,,Connection General: Official contacts at HPI; University of Potsdam,,,,,,,,,,
+D004_07,,,Connection General: Slack,,,,,,,,,,
+D004_08,,,Connection General: Linked-In,,,,,,,,,,
+D004_09,,,Connection General: Other,,,,,,,,,,
+D004_09a,,,Connection General: Other (free text),,,,,,,,,,
+D017,Are you aware of events organized by the University of Potsdam Graduate School [[https://www.uni-potsdam.de/en/pogs|PoGS]]?,,Additional Formats PoGS,,,,,,,,,,
+D011,Did your research chair organize welcome events?,,Events Research Chair,,,,,,,,,,
+D011_01,,,Events Research Chair : Yes,,,,,,,,,,
+D012,Are you aware of any social events; and activities organized by your research chair or the Forschungskolleg (Research School)? ,,Further Events,,,,,,,,,,
+D019_01,Are there any additional or other formats you would have liked? ,,Other Formats: [01],,,,,,,,,,
+D021_01,Do you have any ideas for additional development events or trainings that should be organized at the HPI?,,Event Suggestions : [01],,,,,,,,,,
+D022,Would you like to see similar or additional event formats at HPI? ,,Event Formats,,,,,,,,,,
+E007,If you receive a scholarship from HPI; do you think the offer is competitive with other universities? ,,Competition,,,,,,,,,,
+E008,If you hold a scientific staff position at HPI; do you think the monthly salary is competitive with other universities?,,Salary,,,,,,,,,,
+E009,What is the duration of the longest contract you have received from HPI (as a stipend recipient or as a scientific worker),,Contract Duration,,,,,,,,,,
+E011,Which source of funding would you like to have?,,Work Contract or Scholarship,,,,,,,,,,
+F001,ACADEMIC COMMUNITY: Do you attend regular meetings of your chair?,,Meetings,,,,,,,,,,
+F007,Are you satisfied with the technical infrastructure at the HPI?,,Laboratories,,,,,,,,,,
+F008_01,What do you like most as a doctoral researcher at the HPI? ,,Most Liked : [01],,,,,,,,,,
+F009_01,What would you like to see change for doctoral students at the HPI?  ,,Changes : [01],,,,,,,,,,
+F010,How often would you like to present your work?,,Presenting Work,,,,,,,,,,
+F010_06,,,Presenting Work : other,,,,,,,,,,
+F022,Do you know which cluster you belong to?,,Clusters,,,,,,,,,,
+F022_06,,,Clusters : Yes,,,,,,,,,,
+F015,Are you satisfied with the topic of your dissertation?,,Content Dissertation,,,,,,,,,,
+F016,Would you like to have the opportunity to spend a semester abroad during doctoral study?,,Study Abroad,,,,,,,,,,
+F017,Do you have enough dedicated time to spend on your dissertation? Please elaborate on challenges. ,,Dedicated Time for Dissertation,,,,,,,,,,
+F017_01,,,Dedicated Time for Dissertation : Yes,,,,,,,,,,
+F017_02,,,Dedicated Time for Dissertation : No,,,,,,,,,,
+F019,How many hours per week do you dedicate to the PhD:,,PhD Hours,,,,,,,,,,
+F018_01,When events are planned for doctoral students; do you prefer them to be held in the morning; afternoon or evening?,,Time of Events: [01],,,,,,,,,,
+F023,Do you feel well supported as a PhD researcher at HPI?,,Support as a PhD researcher,,,,,,,,,,
+F023_01,,,Support as a PhD researcher: Yes,,,,,,,,,,
+F023_02,,,Support as a PhD researcher: No,,,,,,,,,,
+F024,Would you like to spend more time on your research?,,Time Research,,,,,,,,,,
+F025_01,What are the main obstacles to doing that?,,Obstacles: [01],,,,,,,,,,
+F026_01,Which other regular research related meetings do you attend? ,,Regular Research Meetings: [01],,,,,,,,,,
+F027_01,What activities would you like to see take place within clusters?,,Cluster Activities: [01],,,,,,,,,,
+G001,Are you aware of HPI and University of  Potsdam governing bodies and their role? ,,Governing Bodies,,,,,,,,,,
+G002,As doctoral student member would you like to participate in such bodies? ,,Participation Bodies,,,,,,,,,,
+G002_01,,,Participation Bodies: Yes,,,,,,,,,,
+G002_02,,,Participation Bodies: No,,,,,,,,,,
+G003,Are you aware of the following offices and their roles? ,,Existing Offices,,,,,,,,,,
+G004,Have you faced any difficulty in accessing administrative level resources (HR; IT; Facility Management; Media Support; Studienreferat; etc.),,Accessing Administrative Resources,,,,,,,,,,
+G004_06,,,Accessing Administrative Resources : Yes,,,,,,,,,,
+G005,Did you attend career related events at HPI such as job fairs; HPI Meets? ,,Career Related Events,,,,,,,,,,
+G005_02,,,Career Related Events: No (why not: no interest; not available at the offered times; too busy; prefer a different format.),,,,,,,,,,
+G006,Are you aware of the events and workshops organized by E-school? Mark all that you are aware of. ,,Events/Workshops E-School,,,,,,,,,,
+G006_02,,,Events/Workshops E-School: No (why not: no interest; not available at the offered times; too busy; prefer a different format.),,,,,,,,,,
+G007,Can you imagine launching a start-up?,,Start-Up,,,,,,,,,,
+G007_01,,,Start-Up: Yes,,,,,,,,,,
+G008,Are you aware of the events and workshops organized by D-school? ,,Events/Workshops D-School,,,,,,,,,,
+G009,Are you aware of the events offered by HPI�s International Student and Scholar Services?  There was for example a biweekly global chat and a biweekly PhD and Postdoc Dialogue offered. If you knew about it; but did not attend; why did you not attend? No interest; not available at the offered times; too busy; prefer a different format.,,ISSS,,,,,,,,,,
+G009_02,,,ISSS: No,,,,,,,,,,
+G011,Are you aware of career talks and colloquia organized by your research chair or the Forschungskolleg (Research School)?,,Events Forschungskolleg,,,,,,,,,,
+H004,Do you meet regularly with your first supervisor to discuss your progress on the dissertation? ,,Meetings Supervisor,,,,,,,,,,
+H005,Do you find the frequency and the content of these meetings satisfactory? ,,Frequency and Content of Meetings,,,,,,,,,,
+H006,Would you like to see a formal annual review by the first supervisor? ,,Annual Review,,,,,,,,,,
+H007,Do you feel the feedback you receive from your supervisor on the quality of your work is sufficient?,,Feedback Quality of Work,,,,,,,,,,
+H008,Do you feel there is enough opportunity to interact with/receive feedback from other professors? ,,Feedback Other HPI Faculty,,,,,,,,,,
+H009,There is a focus on publishing. Do you feel there is adequate support in finding topics for academic papers and selecting appropriate journals? ,,Academic Support,,,,,,,,,,
+H011,Would you like to see more structured program offerings to all PhD students? ,,More Structured Programs,,,,,,,,,,
+H001_01,Do you have a good relationship with your first academic-supervisor/mentor? ,,Relationship Supervisor : Scale,,,,,,,,,,
+H002_01,What could be done to support the above relationship?,,Improving Relationship : [01],,,,,,,,,,
+H003,Does your chair hold regular meetings?,,On-Campus support,,,,,,,,,,
+H012,Do you have enough opportunity to present your work in different formats (at HPI)?,,Presenting Work,,,,,,,,,,
+H013_01,Are there other regular meetings that you attend?,,Regular Meetings: Describe other meetings here,,,,,,,,,,
+H014,Do you feel you belong to a positive-spirited; inspiring and motivated group of researchers at HPI? ,,Research Group,,,,,,,,,,
+H015,Do you have teaching duties (formally specified by your contract)?,,Teaching Duties,,,,,,,,,,
+H016,If you don�t have teaching duties (as part of a work contract); are you still included in the teaching?,,Included in Teaching,,,,,,,,,,
+H017,Do you/Did you wish to gain teaching experience during your time at the HPI?,,Teaching Experience,,,,,,,,,,
+I001_01,Are you able to balance work tasks for your position and your own study goals? ,,Work Balance: Scale,,,,,,,,,,
+I004_02,Have you experienced any of the following situations or similar situations? ,I004_03:Depression;I004_04:Difficulty in concentrating;I004_05:Anxiety,Situations : Irritability,,,,,,,,,,
+I004_03,,,Situations : Depression,,,,,,,,,,
+I004_04,,,Situations : Difficulty in concentrating,,,,,,,,,,
+I004_05,,,Situations : Anxiety,,,,,,,,,,
+I005_01,If you have experienced other situations that were not mentioned in the previous question; please add them here. ,,Other Experiences : [01],,,,,,,,,,
+I006_01,How did you cope with it? ,,Coping: [01],,,,,,,,,,
+I007,Did you ever consider not completing your PhD?,,Not Completing PhD,,,,,,,,,,
+I007_01,,,Not Completing PhD: Yes,,,,,,,,,,
 I008,Are there any major issues you face during your stay at HPI/University of Potsdam? ,"I008_04: Chronic Illness;I008_05: Disability;I008_06: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.);I008_07: Issues surrounding Sexual orientation/Gender Identity;I008_08: Issues surrounding Gender Equality;I008_09: Issues surrounding Racial Equality;
-I008_10: Issues Surrounding Social Class;I008_12: Religious Differences;I008_13: I feel I have been discriminated against by faculty;I008_14: I feel I have been discriminated against by fellow students;I008_15: I feel I have been discriminated against by staff;I008_16: Experienced aggression in your work environment;I008_17: I have no concerns;I008_18: Other",I008_04a: Chronic Illness (free text);I008_06a: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text);I008_07a: Issues surrounding Sexual orientation/Gender Identity (free text);I008_08a: Issues surrounding Gender Equality (free text);I008_10a: Issues Surrounding Social Class (free text);I008_13a: I feel I have been discriminated against by faculty (free text);I008_14a: I feel I have been discriminated against by fellow students (free text);I008_15a: I feel I have been discriminated against by staff (free text);I008_16a: Experienced aggression in your work environment (free text);I008_18a: Other (free text)
-I008_04,,,Major Issues: Chronic Illness
-I008_04a,,,Major Issues: Chronic Illness (free text)
-I008_05,,,Major Issues: Disability
-I008_06,,,Major Issues: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.)
-I008_06a,,,Major Issues: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text)
-I008_07,,,Major Issues: Issues surrounding Sexual orientation/Gender Identity
-I008_07a,,,Major Issues: Issues surrounding Sexual orientation/Gender Identity (free text)
-I008_08,,,Major Issues: Issues surrounding Gender Equality
-I008_08a,,,Major Issues: Issues surrounding Gender Equality (free text)
-I008_09,,,Major Issues: Issues surrounding Racial Equality
-I008_10,,,Major Issues: Issues Surrounding Social Class
-I008_10a,,,Major Issues: Issues Surrounding Social Class (free text)
-I008_12,,,Major Issues: Religious Differences
-I008_13,,,Major Issues: I feel I have been discriminated against by faculty
-I008_13a,,,Major Issues: I feel I have been discriminated against by faculty (free text)
-I008_14,,,Major Issues: I feel I have been discriminated against by fellow students
-I008_14a,,,Major Issues: I feel I have been discriminated against by fellow students (free text)
-I008_15,,,Major Issues: I feel I have been discriminated against by staff
-I008_15a,,,Major Issues: I feel I have been discriminated against by staff (free text)
-I008_16,,,Major Issues: Experienced aggression in your work environment
-I008_16a,,,Major Issues: Experienced aggression in your work environment (free text)
-I008_17,,,Major Issues: I have no concerns
-I008_18,,,Major Issues: Other
-I008_18a,,,Major Issues: Other (free text)
-I009,If you have dealt with conflict or experienced discrimination but did not report it; what was the reason why? ,I009_01:I did not think it would be resolved;I009_02:I was afraid of repercussions;I009_03:I did not think the issue was severe enough;I009_04:I thought I could handle it myself;I009_05:I was not sure of whom I could report it to;I009_06:I did not feel the points of contact that I knew of were trained to handle this type of situation;I009_07:I prefer not to answer;I009_08:I never experienced conflict;I009_09:I never experienced discrimination,Experienced Discrimination : Residual option (negative) or number of selected options
-I009_01,,,Experienced Discrimination : I didn�t think it would be resolved.
-I009_02,,,Experienced Discrimination : I was afraid of repercussions.
-I009_03,,,Experienced Discrimination : I didn�t think the issue was severe enough.
-I009_04,,,Experienced Discrimination : I thought I could handle it myself.
-I009_05,,,Experienced Discrimination : I wasn�t sure of whom I could report it to.
-I009_06,,,Experienced Discrimination : I didn�t feel the points of contact that I knew of were trained to handle this type of situation.
-I009_07,,,Experienced Discrimination : I prefer not to answer.
-I009_08,,,Experienced Discrimination : I never experienced conflict.
-I009_09,,,Experienced Discrimination : I never experienced discrimination.
-I010,Are you aware of services to register your complaints against any form of discrimination? ,,Registering Complaints
-I011,Are you aware of student support services? Please; mark all the services below that you know about:,I011_01:Internal Contacts and Advice Points at HPI;I011_02:Advisory Service for HPI Students;I011_03:Studentenwerk;I011_04:Counselling;I011_05:None,Support Services: Residual option (negative) or number of selected options
-I011_01,,,Support Services: Internal Contacts and Advice Points at HPI
-I011_02,,,Support Services: Advisory Service for HPI Students
-I011_03,,,Support Services: Studentenwerk
-I011_04,,,Support Services: Counselling
-I011_05,,,Support Services: None
-I012_01,Do you have suggestions for other services to be provided by the HPI?,,Services Suggestions: [01]
-I013,Do you want to have workshops dedicated to inclusiveness (e.g. culture/racial/gender/disability) at the HPI? ,,Workshops on Inclusiveness
-I013_01,,,Workshops on Inclusiveness: Yes
-I013_02,,,Workshops on Inclusiveness: No
-I015,Do you have a clear deadline by which you want to finish your PhD? ,,Completing PhD: Residual option (negative) or number of selected options
-I015_01,,,Completing PhD: Yes
-I015_02,,,Completing PhD: No
-I016_01,What are the factors that determine the submission date of your PhD?,,Determining Factors: [01]
-J006,Have you attended events organized by any of the following groups:,J006_01:International Office at University of Potsdam (e.g.; museum visits; happy hours);J006_02:HPI Students (e.g.; Friday Beers);J006_03:HPI Administration (e.g.; Summer Festival);J006_04:Other,J006_04a:Other (free text)
-J006_01,,,attended.events: International Office at University of Potsdam (e.g.; museum visits; happy hours)
-J006_02,,,attended.events: HPI Students (e.g.; Friday Beers)
-J006_03,,,attended.events: HPI Administration (e.g.; Summer Festival)
-J006_04,,,attended.events: Other
-J006_04a,,,attended.events: Other (free text)
-J011_01,Which of the events below did you consider helpful for your career goals/needs?,J011_02:Company Visit;J011_03:FutureSoc Symposium;J011_04:Conferences hosted at the HPI;J011_05:HPI Connect Events;J011_06:Other Meetups organized at the HPI,events-career: Job Fair
-J011_02,,,events-career: Company Visit
-J011_03,,,events-career: FutureSoc Symposium
-J011_04,,,events-career: Conferences hosted at the HPI [[https://hpi.de/en/the-hpi/events/conferences.html|Link]]
-J011_05,,,events-career: HPI Connect Events [[https://hpi.de/en/connect/events/overview.html|Link]]
-J011_06,,,events-career: Other Meetups organized at the HPI
-J019_01,Do you have suggestions for other events to be organized at the HPI?,,event-suggestions: [01]
-J013,Did you participate in events and workshops organized by the [[https://hpi.de/en/school-of-design-thinking/hpi-d-school.html|D-School]]?,,events-dschool
-J013_02,,,events-dschool: No (why not: no interest; not available at the offered times; too busy; prefer a different format.)
-J017,Please select all appropriate (about employment),J017_01:employed on campus as scientific staff or in the administration;J017_02:employed off campus;J017_03:receive HPIscholarship;J017_04:receive German Research Foundation (DFG) Scholarship;J017_05:receive external scholarship;J017_06:take out loans to finance study;J017_07:rely on savings or support from family to cover costs of study;,employment: Residual option (negative) or number of selected options
-J017_01,,,employment: employed on campus as scientific staff or in the administration
-J017_02,,,employment: employed off campus
-J017_03,,,employment: receive HPI scholarship
-J017_04,,,employment: receive German Research Foundation (DFG) Scholarship
-J017_05,,,employment: receive external scholarship
-J017_06,,,employment: take out loans to finance study
-J017_07,,,employment: rely on savings or support from family to cover costs of study
-J020,Concerning your current job experience; are you satisfied with its applicability to your future career prospects?,,job.career
-J020_01,,,job.career: Yes
-J020_02,,,job.career: No
-K001_01,How satisfied are you with your experience at the HPI?,,Satisfaction HPI : Level of satisfaction
-K002,Would you like to stay at the HPI after your PhD?,,Continue Studies
-K002_01,,,Continue Studies: Yes
-K002_02,,,Continue Studies: No
-K003,After your graduation; where would you consider taking a job position?,K003_01:Academia;K003_02:Academic Management;K003_03:Industry;K003_04:Start-Up scene;K003_05:Government sector;K003_07:Other,K003_07a:Other (free text)
-K003_01,,,After Studies: Academia
-K003_02,,,After Studies: Academic Management
-K003_03,,,After Studies: Industry
-K003_04,,,After Studies: Start-Up scene
-K003_05,,,After Studies: Government sector
-K003_07,,,After Studies: Other
-K003_07a,,,After Studies: Other (free text)
-L001_01,Is there anything that we did not ask and you would like to tell us about?,,Questions: [01]
+I008_10: Issues Surrounding Social Class;I008_12: Religious Differences;I008_13: I feel I have been discriminated against by faculty;I008_14: I feel I have been discriminated against by fellow students;I008_15: I feel I have been discriminated against by staff;I008_16: Experienced aggression in your work environment;I008_17: I have no concerns;I008_18: Other",I008_04a: Chronic Illness (free text);I008_06a: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text);I008_07a: Issues surrounding Sexual orientation/Gender Identity (free text);I008_08a: Issues surrounding Gender Equality (free text);I008_10a: Issues Surrounding Social Class (free text);I008_13a: I feel I have been discriminated against by faculty (free text);I008_14a: I feel I have been discriminated against by fellow students (free text);I008_15a: I feel I have been discriminated against by staff (free text);I008_16a: Experienced aggression in your work environment (free text);I008_18a: Other (free text),,,,,,,,,,
+I008_04,,,Major Issues: Chronic Illness,,,,,,,,,,
+I008_04a,,,Major Issues: Chronic Illness (free text),,,,,,,,,,
+I008_05,,,Major Issues: Disability,,,,,,,,,,
+I008_06,,,Major Issues: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.),,,,,,,,,,
+I008_06a,,,Major Issues: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text),,,,,,,,,,
+I008_07,,,Major Issues: Issues surrounding Sexual orientation/Gender Identity,,,,,,,,,,
+I008_07a,,,Major Issues: Issues surrounding Sexual orientation/Gender Identity (free text),,,,,,,,,,
+I008_08,,,Major Issues: Issues surrounding Gender Equality,,,,,,,,,,
+I008_08a,,,Major Issues: Issues surrounding Gender Equality (free text),,,,,,,,,,
+I008_09,,,Major Issues: Issues surrounding Racial Equality,,,,,,,,,,
+I008_10,,,Major Issues: Issues Surrounding Social Class,,,,,,,,,,
+I008_10a,,,Major Issues: Issues Surrounding Social Class (free text),,,,,,,,,,
+I008_12,,,Major Issues: Religious Differences,,,,,,,,,,
+I008_13,,,Major Issues: I feel I have been discriminated against by faculty,,,,,,,,,,
+I008_13a,,,Major Issues: I feel I have been discriminated against by faculty (free text),,,,,,,,,,
+I008_14,,,Major Issues: I feel I have been discriminated against by fellow students,,,,,,,,,,
+I008_14a,,,Major Issues: I feel I have been discriminated against by fellow students (free text),,,,,,,,,,
+I008_15,,,Major Issues: I feel I have been discriminated against by staff,,,,,,,,,,
+I008_15a,,,Major Issues: I feel I have been discriminated against by staff (free text),,,,,,,,,,
+I008_16,,,Major Issues: Experienced aggression in your work environment,,,,,,,,,,
+I008_16a,,,Major Issues: Experienced aggression in your work environment (free text),,,,,,,,,,
+I008_17,,,Major Issues: I have no concerns,,,,,,,,,,
+I008_18,,,Major Issues: Other,,,,,,,,,,
+I008_18a,,,Major Issues: Other (free text),,,,,,,,,,
+I009,If you have dealt with conflict or experienced discrimination but did not report it; what was the reason why? ,I009_01:I did not think it would be resolved;I009_02:I was afraid of repercussions;I009_03:I did not think the issue was severe enough;I009_04:I thought I could handle it myself;I009_05:I was not sure of whom I could report it to;I009_06:I did not feel the points of contact that I knew of were trained to handle this type of situation;I009_07:I prefer not to answer;I009_08:I never experienced conflict;I009_09:I never experienced discrimination,Experienced Discrimination : Residual option (negative) or number of selected options,,,,,,,,,,
+I009_01,,,Experienced Discrimination : I didn�t think it would be resolved.,,,,,,,,,,
+I009_02,,,Experienced Discrimination : I was afraid of repercussions.,,,,,,,,,,
+I009_03,,,Experienced Discrimination : I didn�t think the issue was severe enough.,,,,,,,,,,
+I009_04,,,Experienced Discrimination : I thought I could handle it myself.,,,,,,,,,,
+I009_05,,,Experienced Discrimination : I wasn�t sure of whom I could report it to.,,,,,,,,,,
+I009_06,,,Experienced Discrimination : I didn�t feel the points of contact that I knew of were trained to handle this type of situation.,,,,,,,,,,
+I009_07,,,Experienced Discrimination : I prefer not to answer.,,,,,,,,,,
+I009_08,,,Experienced Discrimination : I never experienced conflict.,,,,,,,,,,
+I009_09,,,Experienced Discrimination : I never experienced discrimination.,,,,,,,,,,
+I010,Are you aware of services to register your complaints against any form of discrimination? ,,Registering Complaints,,,,,,,,,,
+I011,Are you aware of student support services? Please; mark all the services below that you know about:,I011_01:Internal Contacts and Advice Points at HPI;I011_02:Advisory Service for HPI Students;I011_03:Studentenwerk;I011_04:Counselling;I011_05:None,Support Services: Residual option (negative) or number of selected options,,,,,,,,,,
+I011_01,,,Support Services: Internal Contacts and Advice Points at HPI,,,,,,,,,,
+I011_02,,,Support Services: Advisory Service for HPI Students,,,,,,,,,,
+I011_03,,,Support Services: Studentenwerk,,,,,,,,,,
+I011_04,,,Support Services: Counselling,,,,,,,,,,
+I011_05,,,Support Services: None,,,,,,,,,,
+I012_01,Do you have suggestions for other services to be provided by the HPI?,,Services Suggestions: [01],,,,,,,,,,
+I013,Do you want to have workshops dedicated to inclusiveness (e.g. culture/racial/gender/disability) at the HPI? ,,Workshops on Inclusiveness,,,,,,,,,,
+I013_01,,,Workshops on Inclusiveness: Yes,,,,,,,,,,
+I013_02,,,Workshops on Inclusiveness: No,,,,,,,,,,
+I015,Do you have a clear deadline by which you want to finish your PhD? ,,Completing PhD: Residual option (negative) or number of selected options,,,,,,,,,,
+I015_01,,,Completing PhD: Yes,,,,,,,,,,
+I015_02,,,Completing PhD: No,,,,,,,,,,
+I016_01,What are the factors that determine the submission date of your PhD?,,Determining Factors: [01],,,,,,,,,,
+J006,Have you attended events organized by any of the following groups:,J006_01:International Office at University of Potsdam (e.g.; museum visits; happy hours);J006_02:HPI Students (e.g.; Friday Beers);J006_03:HPI Administration (e.g.; Summer Festival);J006_04:Other,J006_04a:Other (free text),,,,,,,,,,
+J006_01,,,attended.events: International Office at University of Potsdam (e.g.; museum visits; happy hours),,,,,,,,,,
+J006_02,,,attended.events: HPI Students (e.g.; Friday Beers),,,,,,,,,,
+J006_03,,,attended.events: HPI Administration (e.g.; Summer Festival),,,,,,,,,,
+J006_04,,,attended.events: Other,,,,,,,,,,
+J006_04a,,,attended.events: Other (free text),,,,,,,,,,
+J011_01,Which of the events below did you consider helpful for your career goals/needs?,J011_02:Company Visit;J011_03:FutureSoc Symposium;J011_04:Conferences hosted at the HPI;J011_05:HPI Connect Events;J011_06:Other Meetups organized at the HPI,events-career: Job Fair,,,,,,,,,,
+J011_02,,,events-career: Company Visit,,,,,,,,,,
+J011_03,,,events-career: FutureSoc Symposium,,,,,,,,,,
+J011_04,,,events-career: Conferences hosted at the HPI [[https://hpi.de/en/the-hpi/events/conferences.html|Link]],,,,,,,,,,
+J011_05,,,events-career: HPI Connect Events [[https://hpi.de/en/connect/events/overview.html|Link]],,,,,,,,,,
+J011_06,,,events-career: Other Meetups organized at the HPI,,,,,,,,,,
+J019_01,Do you have suggestions for other events to be organized at the HPI?,,event-suggestions: [01],,,,,,,,,,
+J013,Did you participate in events and workshops organized by the [[https://hpi.de/en/school-of-design-thinking/hpi-d-school.html|D-School]]?,,events-dschool,,,,,,,,,,
+J013_02,,,events-dschool: No (why not: no interest; not available at the offered times; too busy; prefer a different format.),,,,,,,,,,
+J017,Please select all appropriate (about employment),J017_01:employed on campus as scientific staff or in the administration;J017_02:employed off campus;J017_03:receive HPIscholarship;J017_04:receive German Research Foundation (DFG) Scholarship;J017_05:receive external scholarship;J017_06:take out loans to finance study;J017_07:rely on savings or support from family to cover costs of study;,employment: Residual option (negative) or number of selected options,,,,,,,,,,
+J017_01,,,employment: employed on campus as scientific staff or in the administration,,,,,,,,,,
+J017_02,,,employment: employed off campus,,,,,,,,,,
+J017_03,,,employment: receive HPI scholarship,,,,,,,,,,
+J017_04,,,employment: receive German Research Foundation (DFG) Scholarship,,,,,,,,,,
+J017_05,,,employment: receive external scholarship,,,,,,,,,,
+J017_06,,,employment: take out loans to finance study,,,,,,,,,,
+J017_07,,,employment: rely on savings or support from family to cover costs of study,,,,,,,,,,
+J020,Concerning your current job experience; are you satisfied with its applicability to your future career prospects?,,job.career,,,,,,,,,,
+J020_01,,,job.career: Yes,,,,,,,,,,
+J020_02,,,job.career: No,,,,,,,,,,
+K001_01,How satisfied are you with your experience at the HPI?,,Satisfaction HPI : Level of satisfaction,,,,,,,,,,
+K002,Would you like to stay at the HPI after your PhD?,,Continue Studies,,,,,,,,,,
+K002_01,,,Continue Studies: Yes,,,,,,,,,,
+K002_02,,,Continue Studies: No,,,,,,,,,,
+K003,After your graduation; where would you consider taking a job position?,K003_01:Academia;K003_02:Academic Management;K003_03:Industry;K003_04:Start-Up scene;K003_05:Government sector;K003_07:Other,K003_07a:Other (free text),,,,,,,,,,
+K003_01,,,After Studies: Academia,,,,,,,,,,
+K003_02,,,After Studies: Academic Management,,,,,,,,,,
+K003_03,,,After Studies: Industry,,,,,,,,,,
+K003_04,,,After Studies: Start-Up scene,,,,,,,,,,
+K003_05,,,After Studies: Government sector,,,,,,,,,,
+K003_07,,,After Studies: Other,,,,,,,,,,
+K003_07a,,,After Studies: Other (free text),,,,,,,,,,
+L001_01,Is there anything that we did not ask and you would like to tell us about?,,Questions: [01],,,,,,,,,,
