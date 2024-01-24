@@ -8,7 +8,7 @@ B003_02,,,Enrollment : Intend to re-enroll,,,,,,,,,,
 B003_05,,,Enrollment : Do not intend to finish PhD,,,,,,,,,,
 B004,Gender,1:Female;2:Male;3:Non-binary;4:Diverse,Gender,,,,,,,,,,3.Non-EU
 B005,Age,,Age,,,,,,,,,,2.EU
-B006,Years at HPI ,,Years at HPI : Residual option (negative) or number of selected options,,,,,,,,,,1.Germany
+B006,Years at HPI ,B006_01:1 year or less;B006_02:2 years;B006_03:3 years;B006_04:More than 4 years,Years at HPI : Residual option (negative) or number of selected options,,,,,,,,,,1.Germany
 B006_01,,,Years at HPI : 1 year or less,,,,,,,,,,empty
 B006_02,,,Years at HPI : 2 years,,,,,,,,,,
 B006_03,,,Years at HPI : 3 years,,,,,,,,,,
