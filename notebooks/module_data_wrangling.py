@@ -67,8 +67,8 @@ def percentage_options_multiple_columns(df_data,options_columns,options_names,se
 def percentage_options_single_column(df_data,column_name,options_names,options_codes):
     """ Count the number of occurrences of code in a given column """
      # select the columns that will be counted.
-    df = df_data[column_name]
-
+    df = df_data
+    
     # Count occurrences of the number 2 in each column
     count_selected = np.array([len(df[df[column_name]==code]) for code in options_codes])
     total_count = sum(count_selected)
