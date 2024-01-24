@@ -49,7 +49,7 @@ def percentage_options_multiple_columns(df_data,options_columns,options_names,se
     count_selected = np.array([len(df[df[x]==selected_code]) for x in options_columns])
     total_count = sum(count_selected)
     if(total_count==0):
-        return None
+        return pd.DataFrame()
     else:
         count_column = np.append(count_selected,total_count)
         percentages = np.round((count_column / total_count) * 100,2)
@@ -76,7 +76,7 @@ def percentage_options_single_column(df_data,column_name,options_names,options_c
     count_selected = np.array([len(df[df[column_name]==code]) for code in options_codes])
     total_count = sum(count_selected)
     if(total_count==0):
-        return -1
+        return pd.DataFrame()
     else:
         count_column = np.append(count_selected,total_count)
         percentages = np.round((count_column / total_count) * 100,2)
