@@ -48,20 +48,23 @@ def percentage_options_multiple_columns(df_data,options_columns,options_names,se
     # Count occurrences of the number 2 in each column
     count_selected = np.array([len(df[df[x]==selected_code]) for x in options_columns])
     total_count = sum(count_selected)
-    count_column = np.append(count_selected,total_count)
-    percentages = np.round((count_column / total_count) * 100,2)
-    percentages_formatted = ["%.2f" % member for member in percentages]
+    if(total_count==0):
+        return None
+    else:
+        count_column = np.append(count_selected,total_count)
+        percentages = np.round((count_column / total_count) * 100,2)
+        percentages_formatted = ["%.2f" % member for member in percentages]
 
-    options_names=np.append(options_names,["TOTAL"])
+        options_names=np.append(options_names,["TOTAL"])
 
-    # Create a summary DataFrame
-    count_df = pd.DataFrame({
-        'Option': options_names,
-        'Count': count_column,
-        'Percentage': percentages_formatted   
-    })
+        # Create a summary DataFrame
+        count_df = pd.DataFrame({
+            'Option': options_names,
+            'Count': count_column,
+            'Percentage': percentages_formatted   
+        })
     
-    return count_df
+        return count_df
 
 #------------------------------------------------------------------------
 def percentage_options_single_column(df_data,column_name,options_names,options_codes):
@@ -72,20 +75,23 @@ def percentage_options_single_column(df_data,column_name,options_names,options_c
     # Count occurrences of the number 2 in each column
     count_selected = np.array([len(df[df[column_name]==code]) for code in options_codes])
     total_count = sum(count_selected)
-    count_column = np.append(count_selected,total_count)
-    percentages = np.round((count_column / total_count) * 100,2)
-    percentages_formatted = ["%.2f" % member for member in percentages]
+    if(total_count==0):
+        return -1
+    else:
+        count_column = np.append(count_selected,total_count)
+        percentages = np.round((count_column / total_count) * 100,2)
+        percentages_formatted = ["%.2f" % member for member in percentages]
 
-    options_names=np.append(options_names,["TOTAL"])
+        options_names=np.append(options_names,["TOTAL"])
 
-    # Create a summary DataFrame
-    count_df = pd.DataFrame({
-        'Option': options_names,
-        'Count': count_column,
-        'Percentage': percentages_formatted   
-    })
+        # Create a summary DataFrame
+        count_df = pd.DataFrame({
+            'Option': options_names,
+            'Count': count_column,
+            'Percentage': percentages_formatted   
+        })
     
-    return count_df
+        return count_df
 
 #------------------------------------------------------------------------
 def replace_code_for_name(data_frame,column_key, dictionary_for_column):
