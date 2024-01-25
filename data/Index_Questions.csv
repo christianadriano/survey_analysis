@@ -123,50 +123,49 @@ H015,Do you have teaching duties (formally specified by your contract)?,,Teachin
 H016,If you don�t have teaching duties (as part of a work contract); are you still included in the teaching?,,Included in Teaching,
 H017,Do you/Did you wish to gain teaching experience during your time at the HPI?,,Teaching Experience,
 I001_01,Are you able to balance work tasks for your position and your own study goals? ,,Work Balance: Scale,
-I004_02,Have you experienced irritabiliy or similar situation? ,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Situations : Irritability,
-I004_03,Have you experienced depression or similar situation?,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Situations : Depression,
-I004_04,Have you experienced difficulty in concentrating or similar situation?,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Situations : Difficulty in concentrating,
-I004_05,Have you experienced anxiety or similar situation?,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Situations : Anxiety,
+I004_02,Have you experienced irritabiliy or similar situation? ,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Irritability,Yes
+I004_03,Have you experienced depression or similar situation?,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Depression,Yes
+I004_04,Have you experienced difficulty in concentrating or similar situation?,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Difficulty in concentrating,Yes
+I004_05,Have you experienced anxiety or similar situation?,0:extremely low;1:very low;2:low;3:neutral;4:high;5:very high;6:extremely high,Anxiety,Yes
 I005_01,If you have experienced other situations that were not mentioned in the previous question; please add them here. ,,Other Experiences : [01],
 I006_01,How did you cope with it? ,,Coping: [01],
 I007,Did you ever consider not completing your PhD?,,Not Completing PhD,
 I007_01,,,Not Completing PhD: Yes,
-I008,Are there any major issues you face during your stay at HPI/University of Potsdam? ,"I008_04: Chronic Illness;I008_05: Disability;I008_06: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.);I008_07: Issues surrounding Sexual orientation/Gender Identity;I008_08: Issues surrounding Gender Equality;I008_09: Issues surrounding Racial Equality;
-I008_10: Issues Surrounding Social Class;I008_12: Religious Differences;I008_13: I feel I have been discriminated against by faculty;I008_14: I feel I have been discriminated against by fellow students;I008_15: I feel I have been discriminated against by staff;I008_16: Experienced aggression in your work environment;I008_17: I have no concerns;I008_18: Other",I008_04a: Chronic Illness (free text);I008_06a: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text);I008_07a: Issues surrounding Sexual orientation/Gender Identity (free text);I008_08a: Issues surrounding Gender Equality (free text);I008_10a: Issues Surrounding Social Class (free text);I008_13a: I feel I have been discriminated against by faculty (free text);I008_14a: I feel I have been discriminated against by fellow students (free text);I008_15a: I feel I have been discriminated against by staff (free text);I008_16a: Experienced aggression in your work environment (free text);I008_18a: Other (free text),
-I008_04,,,Major Issues: Chronic Illness,
-I008_04a,,,Major Issues: Chronic Illness (free text),
-I008_05,,,Major Issues: Disability,
-I008_06,,,Major Issues: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.),
-I008_06a,,,Major Issues: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text),
-I008_07,,,Major Issues: Issues surrounding Sexual orientation/Gender Identity,
-I008_07a,,,Major Issues: Issues surrounding Sexual orientation/Gender Identity (free text),
-I008_08,,,Major Issues: Issues surrounding Gender Equality,
-I008_08a,,,Major Issues: Issues surrounding Gender Equality (free text),
-I008_09,,,Major Issues: Issues surrounding Racial Equality,
-I008_10,,,Major Issues: Issues Surrounding Social Class,
-I008_10a,,,Major Issues: Issues Surrounding Social Class (free text),
-I008_12,,,Major Issues: Religious Differences,
-I008_13,,,Major Issues: I feel I have been discriminated against by faculty,
-I008_13a,,,Major Issues: I feel I have been discriminated against by faculty (free text),
-I008_14,,,Major Issues: I feel I have been discriminated against by fellow students,
-I008_14a,,,Major Issues: I feel I have been discriminated against by fellow students (free text),
-I008_15,,,Major Issues: I feel I have been discriminated against by staff,
-I008_15a,,,Major Issues: I feel I have been discriminated against by staff (free text),
-I008_16,,,Major Issues: Experienced aggression in your work environment,
-I008_16a,,,Major Issues: Experienced aggression in your work environment (free text),
-I008_17,,,Major Issues: I have no concerns,
-I008_18,,,Major Issues: Other,
-I008_18a,,,Major Issues: Other (free text),
-I009,If you have dealt with conflict or experienced discrimination but did not report it; what was the reason why? ,I009_01:I did not think it would be resolved;I009_02:I was afraid of repercussions;I009_03:I did not think the issue was severe enough;I009_04:I thought I could handle it myself;I009_05:I was not sure of whom I could report it to;I009_06:I did not feel the points of contact that I knew of were trained to handle this type of situation;I009_07:I prefer not to answer;I009_08:I never experienced conflict;I009_09:I never experienced discrimination,Experienced Discrimination : Residual option (negative) or number of selected options,
-I009_01,,,Experienced Discrimination : I didn�t think it would be resolved.,
-I009_02,,,Experienced Discrimination : I was afraid of repercussions.,
-I009_03,,,Experienced Discrimination : I didn�t think the issue was severe enough.,
-I009_04,,,Experienced Discrimination : I thought I could handle it myself.,
-I009_05,,,Experienced Discrimination : I wasn�t sure of whom I could report it to.,
-I009_06,,,Experienced Discrimination : I didn�t feel the points of contact that I knew of were trained to handle this type of situation.,
-I009_07,,,Experienced Discrimination : I prefer not to answer.,
-I009_08,,,Experienced Discrimination : I never experienced conflict.,
-I009_09,,,Experienced Discrimination : I never experienced discrimination.,
+I008,Are there any major issues you face during your stay at HPI/University of Potsdam? ,I008_04: Chronic Illness;I008_05: Disability;I008_06: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.);I008_07: Issues surrounding Sexual orientation/Gender Identity;I008_08: Issues surrounding Gender Equality;I008_09: Issues surrounding Racial Equality;I008_10: Issues Surrounding Social Class;I008_12: Religious Differences;I008_13: I feel I have been discriminated against by faculty;I008_14: I feel I have been discriminated against by fellow students;I008_15: I feel I have been discriminated against by staff;I008_16: Experienced aggression in your work environment;I008_17: I have no concerns;I008_18: Other,I008_04a: Chronic Illness (free text);I008_06a: Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text);I008_07a: Issues surrounding Sexual orientation/Gender Identity (free text);I008_08a: Issues surrounding Gender Equality (free text);I008_10a: Issues Surrounding Social Class (free text);I008_13a: I feel I have been discriminated against by faculty (free text);I008_14a: I feel I have been discriminated against by fellow students (free text);I008_15a: I feel I have been discriminated against by staff (free text);I008_16a: Experienced aggression in your work environment (free text);I008_18a: Other (free text),Yes
+I008_04,,,Chronic Illness,Yes
+I008_04a,,,Chronic Illness (free text),Yes
+I008_05,,, Disability,Yes
+I008_06,,, Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.),Yes
+I008_06a,,, Issues surrounding Care Work - for Children or Elderly and Sick Persons in the Family (Please specify if you would like or need Family Services.) (free text),Yes
+I008_07,,, Issues surrounding Sexual orientation/Gender Identity,Yes
+I008_07a,,, Issues surrounding Sexual orientation/Gender Identity (free text),Yes
+I008_08,,, Issues surrounding Gender Equality,Yes
+I008_08a,,, Issues surrounding Gender Equality (free text),Yes
+I008_09,,, Issues surrounding Racial Equality,Yes
+I008_10,,, Issues Surrounding Social Class,Yes
+I008_10a,,, Issues Surrounding Social Class (free text),Yes
+I008_12,,, Religious Differences,Yes
+I008_13,,, I feel I have been discriminated against by faculty,Yes
+I008_13a,,, I feel I have been discriminated against by faculty (free text),Yes
+I008_14,,, I feel I have been discriminated against by fellow students,Yes
+I008_14a,,, I feel I have been discriminated against by fellow students (free text),Yes
+I008_15,,, I feel I have been discriminated against by staff,Yes
+I008_15a,,, I feel I have been discriminated against by staff (free text),Yes
+I008_16,,, Experienced aggression in your work environment,Yes
+I008_16a,,, Experienced aggression in your work environment (free text),Yes
+I008_17,,, I have no concerns,Yes
+I008_18,,, Other,Yes
+I008_18a,,, Other (free text),Yes
+I009,If you have dealt with conflict or experienced discrimination but did not report it; what was the reason why? ,I009_01:I did not think it would be resolved;I009_02:I was afraid of repercussions;I009_03:I did not think the issue was severe enough;I009_04:I thought I could handle it myself;I009_05:I was not sure of whom I could report it to;I009_06:I did not feel the points of contact that I knew of were trained to handle this type of situation;I009_07:I prefer not to answer;I009_08:I never experienced conflict;I009_09:I never experienced discrimination,Experienced Discrimination : Residual option (negative) or number of selected options,Yes
+I009_01,,,Experienced Discrimination : I didn�t think it would be resolved.,Yes
+I009_02,,,Experienced Discrimination : I was afraid of repercussions.,Yes
+I009_03,,,Experienced Discrimination : I didn�t think the issue was severe enough.,Yes
+I009_04,,,Experienced Discrimination : I thought I could handle it myself.,Yes
+I009_05,,,Experienced Discrimination : I wasn�t sure of whom I could report it to.,Yes
+I009_06,,,Experienced Discrimination : I didn�t feel the points of contact that I knew of were trained to handle this type of situation.,Yes
+I009_07,,,Experienced Discrimination : I prefer not to answer.,Yes
+I009_08,,,Experienced Discrimination : I never experienced conflict.,Yes
+I009_09,,,Experienced Discrimination : I never experienced discrimination.,Yes
 I010,Are you aware of services to register your complaints against any form of discrimination? ,,Registering Complaints,
 I011,Are you aware of student support services? Please; mark all the services below that you know about:,I011_01:Internal Contacts and Advice Points at HPI;I011_02:Advisory Service for HPI Students;I011_03:Studentenwerk;I011_04:Counselling;I011_05:None,Support Services: Residual option (negative) or number of selected options,
 I011_01,,,Support Services: Internal Contacts and Advice Points at HPI,
