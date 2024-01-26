@@ -167,12 +167,12 @@ I009_07,,,Experienced Discrimination : I prefer not to answer.,Yes
 I009_08,,,Experienced Discrimination : I never experienced conflict.,Yes
 I009_09,,,Experienced Discrimination : I never experienced discrimination.,Yes
 I010,Are you aware of services to register your complaints against any form of discrimination? ,,Registering Complaints,
-I011,Are you aware of student support services? Please; mark all the services below that you know about:,I011_01:Internal Contacts and Advice Points at HPI;I011_02:Advisory Service for HPI Students;I011_03:Studentenwerk;I011_04:Counselling;I011_05:None,Support Services: Residual option (negative) or number of selected options,
-I011_01,,,Support Services: Internal Contacts and Advice Points at HPI,
-I011_02,,,Support Services: Advisory Service for HPI Students,
-I011_03,,,Support Services: Studentenwerk,
-I011_04,,,Support Services: Counselling,
-I011_05,,,Support Services: None,
+I011,Are you aware of student support services? Please; mark all the services below that you know about:,I011_01:Internal Contacts and Advice Points at HPI;I011_02:Advisory Service for HPI Students;I011_03:Studentenwerk;I011_04:Counselling;I011_05:None, Residual option (negative) or number of selected options,
+I011_01,,, Internal Contacts and Advice Points at HPI,
+I011_02,,, Advisory Service for HPI Students,
+I011_03,,, Studentenwerk,
+I011_04,,, Counselling,
+I011_05,,, None,
 I012_01,Do you have suggestions for other services to be provided by the HPI?,,Services Suggestions: [01],
 I013,Do you want to have workshops dedicated to inclusiveness (e.g. culture/racial/gender/disability) at the HPI? ,,Workshops on Inclusiveness,
 I013_01,,,Workshops on Inclusiveness: Yes,
