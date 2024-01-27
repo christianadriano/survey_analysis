@@ -167,12 +167,12 @@ I009_07,,,Experienced Discrimination : I prefer not to answer.,Yes
 I009_08,,,Experienced Discrimination : I never experienced conflict.,Yes
 I009_09,,,Experienced Discrimination : I never experienced discrimination.,Yes
 I010,Are you aware of services to register your complaints against any form of discrimination? ,,Registering Complaints,
-I011,Are you aware of student support services? Please; mark all the services below that you know about:,I011_01:Internal Contacts and Advice Points at HPI;I011_02:Advisory Service for HPI Students;I011_03:Studentenwerk;I011_04:Counselling;I011_05:None, Residual option (negative) or number of selected options,
-I011_01,,, Internal Contacts and Advice Points at HPI,
-I011_02,,, Advisory Service for HPI Students,
-I011_03,,, Studentenwerk,
-I011_04,,, Counselling,
-I011_05,,, None,
+I011,Are you aware of student support services? Please; mark all the services below that you know about:,I011_01:Internal Contacts and Advice Points at HPI;I011_02:Advisory Service for HPI Students;I011_03:Studentenwerk;I011_04:Counselling;I011_05:None, Residual option (negative) or number of selected options,Yes
+I011_01,,, Internal Contacts and Advice Points at HPI,Yes
+I011_02,,, Advisory Service for HPI Students,Yes
+I011_03,,, Studentenwerk,Yes
+I011_04,,, Counselling,Yes
+I011_05,,, None,Yes
 I012_01,Do you have suggestions for other services to be provided by the HPI?,,Services Suggestions: [01],
 I013,Do you want to have workshops dedicated to inclusiveness (e.g. culture/racial/gender/disability) at the HPI? ,,Workshops on Inclusiveness,
 I013_01,,,Workshops on Inclusiveness: Yes,
@@ -181,12 +181,12 @@ I015,Do you have a clear deadline by which you want to finish your PhD? ,,Comple
 I015_01,,,Completing PhD: Yes,
 I015_02,,,Completing PhD: No,
 I016_01,What are the factors that determine the submission date of your PhD?,,Determining Factors: [01],
-J006,Have you attended events organized by any of the following groups:,J006_01:International Office at University of Potsdam (e.g.; museum visits; happy hours);J006_02:HPI Students (e.g.; Friday Beers);J006_03:HPI Administration (e.g.; Summer Festival);J006_04:Other,J006_04a:Other (free text),
-J006_01,,,attended.events: International Office at University of Potsdam (e.g.; museum visits; happy hours),
-J006_02,,,attended.events: HPI Students (e.g.; Friday Beers),
-J006_03,,,attended.events: HPI Administration (e.g.; Summer Festival),
-J006_04,,,attended.events: Other,
-J006_04a,,,attended.events: Other (free text),
+J006,Have you attended events organized by any of the following groups:,J006_01:International Office at University of Potsdam (e.g. museum visits; happy hours);J006_02:HPI Students (e.g. Friday Beers);J006_03:HPI Administration (e.g. Summer Festival);J006_04:Other,J006_04a:Other (free text),
+J006_01,,,International Office at University of Potsdam (e.g.; museum visits; happy hours),
+J006_02,,,HPI Students (e.g.; Friday Beers),
+J006_03,,,HPI Administration (e.g.; Summer Festival),
+J006_04,,,Other,
+J006_04a,,,Other (free text),
 J011_01,Which of the events below did you consider helpful for your career goals/needs?,J011_02:Company Visit;J011_03:FutureSoc Symposium;J011_04:Conferences hosted at the HPI;J011_05:HPI Connect Events;J011_06:Other Meetups organized at the HPI,events-career: Job Fair,
 J011_02,,,events-career: Company Visit,
 J011_03,,,events-career: FutureSoc Symposium,
