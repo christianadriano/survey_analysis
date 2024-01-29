@@ -49,15 +49,15 @@ def filter_write_table_single_column(group_column_key, dict_column_names, df,
 
     for group_category in group_categories:
         filtered_df = df[df[group_column_key] == group_category]    
-        if(len(filtered_df.index > 0)):#ignores group_categories that are not present 
+        if(filtered_df.size > 0):#ignores group_categories that are not present 
            
             count_df = dw.percentage_options_single_column(df_data=filtered_df,
                                 column_name = question_id,
                                 options_names=options_names_list,
                                 options_codes=options_code_list)
-            if(count_df.size>0):
+            if(count_df.size > 0):
                 group_name = dict_column_names.get(group_category)
-                print('Table for '+group_name)
+                print('Table for '+'"{}"'.format(group_name))
     
                 #Rename columns before printing
                 count_df = count_df.rename(columns={count_df.columns[0]: 'Answers'})
@@ -66,7 +66,9 @@ def filter_write_table_single_column(group_column_key, dict_column_names, df,
                 latex_table = write_latex_table(count_df,False, group_category, 
                                     question_id, question_title,column_format='@{}lcc')
                 table_to_file(latex_table,tables_path,tables_file_name)
-                
+            else:
+                print('Table for '+'"{}"'.format(group_name)+ 'is empty')
+                    
 #-------------------------------------------------------------------------------
 
 def filter_write_table_multiple_column(group_column_key, dict_column_names, df,
@@ -78,21 +80,22 @@ def filter_write_table_multiple_column(group_column_key, dict_column_names, df,
 
     for group_category in group_categories:
         filtered_df = df[df[group_column_key] == group_category]    
-        if(len(filtered_df.index > 0)):#ignores group_categories that are not present 
-           
+        if(filtered_df.size > 0):#ignores group_categories that are not present            
             count_df = dw.percentage_options_multiple_columns(df_data = filtered_df,
                                 options_columns=options_columns_list,
                                 options_names=options_names_list,
                                 selected_code=selected_code)
             group_name = dict_column_names.get(group_category)
-            print('Table for '+group_name)
     
         #Rename columns before printing
-        count_df = count_df.rename(columns={count_df.columns[0]: 'Answers'})
-        display(count_df)
+        if(count_df.size > 0):
+            print('Table for '+'"{}"'.format(group_name))
+            count_df = count_df.rename(columns={count_df.columns[0]: 'Answers'})
+            display(count_df)
 
-        latex_table = write_latex_table(count_df,False, group_category, 
+            latex_table = write_latex_table(count_df,False, group_category, 
                                     question_id, question_title,column_format='@{}lcc')
-        table_to_file(latex_table,tables_path,tables_file_name)
-        
+            table_to_file(latex_table,tables_path,tables_file_name)
+        else:
+            print('Table for '+ '"{}"'.format(group_name)+' is empty')
 #-------------------------------------------------------------------------------
