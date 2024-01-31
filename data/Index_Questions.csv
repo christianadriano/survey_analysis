@@ -67,8 +67,8 @@ E007,If you receive a scholarship from HPI; do you think the offer is competitiv
 E008,If you hold a scientific staff position at HPI; do you think the monthly salary is competitive with other universities?,E008:Yes No,,Yes
 E009,What is the duration of the longest contract you have received from HPI (as a stipend recipient or as a scientific worker),E009:Multiple Choice,,Yes
 E011,Which source of funding would you like to have?,E011:Multiple Choice,,Yes
-F001,ACADEMIC COMMUNITY: Do you attend regular meetings of your chair?,,Meetings,
-F007,Are you satisfied with the technical infrastructure at the HPI?,,Laboratories,
+F001,Do you attend regular meetings of your chair?,F001: Yes No,,
+F007,Are you satisfied with the technical infrastructure at the HPI?,F007: Yes No,,
 F008_01,What do you like most as a doctoral researcher at the HPI? ,,Most Liked : [01],
 F009_01,What would you like to see change for doctoral students at the HPI?  ,,Changes : [01],
 F010,How often would you like to present your work?,,Presenting Work,
