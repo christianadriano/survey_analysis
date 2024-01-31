@@ -43,9 +43,9 @@ C007_01,,,Yes,Yes
 C007_01a,,,Yes (free text),Yes
 C007_02,,,No,Yes
 C007_02a,,,No (free text),Yes
-D001,In general; was it easy to settle at the HPI as a new member?,,Settling,
-D001_02,,,Settling: No (What were the challenges? (e.g.; administrative; language; communication...) Please specify.,
-D003,Do you feel satisfied with your level of connection to peers and others?,,Connection Peers,
+D001,In general; was it easy to settle at the HPI as a new member?,D001:Yes No,"D001_02:No. What were the challenges? (e.g. administrative, language, communication...). Please specify.",Yes
+D001_02,,,"No. What were the challenges? (e.g. administrative, language, communication...) Please specify.",Yes
+D003,Do you feel satisfied with your level of connection to peers and others?,D003:Yes No,,Yes
 D004,How are you connected to your peers and others at the HPI?,D004_01:Social Media;D004_02:Mailing List (official);D004_03:Messaging Apps (e.g. Telegram);D004_04:Events (e.g. Friday Beers);D004_06:Official contacts at HPI-University of Potsdam;D004_07:Slack;D004_08:Linked-In;D004_09:Other,D004_09a:Other (free text),Yes
 D004_01,,,Connection General: Social Media,Yes
 D004_02,,,Connection General: Mailing List (official),Yes
@@ -56,17 +56,17 @@ D004_07,,,Connection General: Slack,Yes
 D004_08,,,Connection General: Linked-In,Yes
 D004_09,,,Connection General: Other,Yes
 D004_09a,,,Connection General: Other (free text),Yes
-D017,Are you aware of events organized by the University of Potsdam Graduate School [[https://www.uni-potsdam.de/en/pogs|PoGS]]?,,Additional Formats PoGS,
-D011,Did your research chair organize welcome events?,,Events Research Chair,
-D011_01,,,Events Research Chair : Yes,
-D012,Are you aware of any social events; and activities organized by your research chair or the Forschungskolleg (Research School)? ,,Further Events,
-D019_01,Are there any additional or other formats you would have liked? ,,Other Formats: [01],
-D021_01,Do you have any ideas for additional development events or trainings that should be organized at the HPI?,,Event Suggestions : [01],
-D022,Would you like to see similar or additional event formats at HPI? ,,Event Formats,
-E007,If you receive a scholarship from HPI; do you think the offer is competitive with other universities? ,,Competition,
-E008,If you hold a scientific staff position at HPI; do you think the monthly salary is competitive with other universities?,,Salary,
-E009,What is the duration of the longest contract you have received from HPI (as a stipend recipient or as a scientific worker),,Contract Duration,
-E011,Which source of funding would you like to have?,,Work Contract or Scholarship,
+D017,Are you aware of events organized by the University of Potsdam Graduate School?,D017:Yes No,,Yes
+D011,Did your research chair organize welcome events?,D011:Yes No,D011_01:Yes. Please specify.,Yes
+D011_01,,,Yes. Please specify.,Yes
+D012,Are you aware of any social events; and activities organized by your research chair or the Forschungskolleg (Research School)? ,D012:Yes No,,Yes
+D019,Are there any additional or other formats you would have liked? ,D019: Free text,D019: Free text,Yes
+D021,Do you have any ideas for additional development events or trainings that should be organized at the HPI?,D021: Free text,D021: Free text,Yes
+D022,Would you like to see similar or additional event formats at HPI? ,D022:Yes No,,Yes
+E007,If you receive a scholarship from HPI; do you think the offer is competitive with other universities? ,E007:Yes No,,Yes
+E008,If you hold a scientific staff position at HPI; do you think the monthly salary is competitive with other universities?,E008:Yes No,,Yes
+E009,What is the duration of the longest contract you have received from HPI (as a stipend recipient or as a scientific worker),E009:Multiple Choice,,Yes
+E011,Which source of funding would you like to have?,E011:Multiple Choice,,Yes
 F001,ACADEMIC COMMUNITY: Do you attend regular meetings of your chair?,,Meetings,
 F007,Are you satisfied with the technical infrastructure at the HPI?,,Laboratories,
 F008_01,What do you like most as a doctoral researcher at the HPI? ,,Most Liked : [01],
