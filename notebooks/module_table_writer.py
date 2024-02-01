@@ -4,11 +4,18 @@ import os as os
 import module_data_wrangling as dw
 
 #-----------------------------------------
-def write_latex_table(data_df, show_index, filter_value, 
+def write_latex_table(data_df, show_index, filter_name, filter_value, 
                       question_id, question_title,column_format):
     """ Generate Latex table and save to file"""
 
-    table_caption=f'{filter_value} answers for {question_id}-{question_title}'
+    if len(filter_name)>0:
+        prefix = f'{filter_name}=\"{filter_value}\"'
+    else:
+        prefix = filter_value
+
+    question_text = question_title.replace(';',',')
+
+    table_caption=f'{prefix} answers for question {question_id}-{question_text}'
     label_name = f'{question_id}-{filter_value}_table'
     label_name = label_name.replace('(','')
     label_name = label_name.replace(')','')
@@ -42,8 +49,9 @@ def table_to_file(df_data, tables_path, tables_file_name):
 #--------------------------------------------------------------------------------
 
 def filter_write_table_single_column(group_column_key, dict_column_names, df,
-                       options_names_list, options_code_list, 
-                       question_id, question_title, tables_path, tables_file_name):
+                       options_names_list, options_code_list,
+                       question_id, question_title, tables_path, tables_file_name,
+                       filter_name):
     # Filter by enrolled
     group_categories = dict_column_names.keys()
 
@@ -63,8 +71,15 @@ def filter_write_table_single_column(group_column_key, dict_column_names, df,
                 count_df = count_df.rename(columns={count_df.columns[0]: 'Answers'})
                 display(count_df)
 
-                latex_table = write_latex_table(count_df,False, group_category, 
-                                    question_id, question_title,column_format='@{}lcc')
+                latex_table = write_latex_table(data_df=count_df, 
+                                                show_index=False,
+                                                filter_name=filter_name, 
+                                                filter_value=group_name,
+                                                question_id=question_id, 
+                                                question_title=question_title,
+                                                column_format='@{}lcc'
+                                                )
+                
                 table_to_file(latex_table,tables_path,tables_file_name)
             else:
                 print('Table for '+'"{}"'.format(group_name)+ 'is empty')
@@ -73,7 +88,8 @@ def filter_write_table_single_column(group_column_key, dict_column_names, df,
 
 def filter_write_table_multiple_column(group_column_key, dict_column_names, df,
                        options_names_list, options_columns_list, selected_code, 
-                       question_id, question_title, tables_path, tables_file_name):
+                       question_id, question_title, tables_path, tables_file_name,
+                       filter_name):
     
     # Filter by enrolled
     group_categories = dict_column_names.keys()
@@ -92,9 +108,16 @@ def filter_write_table_multiple_column(group_column_key, dict_column_names, df,
             print('Table for '+'"{}"'.format(group_name))
             count_df = count_df.rename(columns={count_df.columns[0]: 'Answers'})
             display(count_df)
-
-            latex_table = write_latex_table(count_df,False, group_category, 
-                                    question_id, question_title,column_format='@{}lcc')
+            
+            latex_table = write_latex_table(data_df=count_df, 
+                                            show_index=False,
+                                            filter_name=filter_name, 
+                                            filter_value=group_name,
+                                            question_id=question_id, 
+                                            question_title=question_title,
+                                            column_format='@{}lcc'
+                                            )
+            
             table_to_file(latex_table,tables_path,tables_file_name)
         else:
             print('Table for '+ '"{}"'.format(group_name)+' is empty')
