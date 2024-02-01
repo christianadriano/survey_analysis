@@ -67,47 +67,47 @@ E007,If you receive a scholarship from HPI; do you think the offer is competitiv
 E008,If you hold a scientific staff position at HPI; do you think the monthly salary is competitive with other universities?,E008:Yes No,,Yes
 E009,What is the duration of the longest contract you have received from HPI (as a stipend recipient or as a scientific worker),E009:Multiple Choice,,Yes
 E011,Which source of funding would you like to have?,E011:Multiple Choice,,Yes
-F001,Do you attend regular meetings of your chair?,F001: Yes No,,
-F007,Are you satisfied with the technical infrastructure at the HPI?,F007: Yes No,,
-F008_01,What do you like most as a doctoral researcher at the HPI? ,,Most Liked : [01],
-F009_01,What would you like to see change for doctoral students at the HPI?  ,,Changes : [01],
-F010,How often would you like to present your work?,,Presenting Work,
-F010_06,,,Presenting Work : other,
-F022,Do you know which cluster you belong to?,,Clusters,
-F022_06,,,Clusters : Yes,
-F015,Are you satisfied with the topic of your dissertation?,,Content Dissertation,
-F016,Would you like to have the opportunity to spend a semester abroad during doctoral study?,,Study Abroad,
+F001,Do you attend regular meetings of your chair?,F001: Yes No,,Yes
+F007,Are you satisfied with the technical infrastructure at the HPI?,F007: Yes No,,Yes
+F008,What do you like most as a doctoral researcher at the HPI? ,F008:Free text,F008:Free text,Yes
+F009,What would you like to see change for doctoral students at the HPI?  ,F009:Free text,F009:Free text,Yes
+F010,How often would you like to present your work?,F010:Multiple choice ,F010_06:Other (free text),
+F010_06,,,Other (free text),Yes
+F022,Do you know which cluster you belong to?,F022:Yes No,F022_06:Yes (free text),Yes
+F022_06,,, Yes (free text),Yes
+F015,Are you satisfied with the topic of your dissertation?,F015:Yes No,,Yes
+F016,Would you like to have the opportunity to spend a semester abroad during doctoral study?,F016:Yes No,,Yes
 F017,Do you have enough dedicated time to spend on your dissertation? Please elaborate on challenges. ,F017_01:Yes;F017_02:No,F017_01a:Yes (free text);F017_02a:No (free text),Yes
 F017_01,,,Yes,Yes
 F017_01a,,,Yes (free text),Yes
 F017_02,,,No,Yes
 F017_02a,,,No (free text),Yes
-F019,How many hours per week do you dedicate to the PhD:,,PhD Hours,
-F018_01,When events are planned for doctoral students; do you prefer them to be held in the morning; afternoon or evening?,,Time of Events: [01],
+F019,How many hours per week do you dedicate to the PhD?,F019:Multiple choice,,Yes
+F018,When events are planned for doctoral student - do you prefer them to be held in the morning; afternoon or evening?,F018:Free text,F018:Answers (free text),Yes
 F023,Do you feel well supported as a PhD researcher at HPI?,F023:Yes,F023_01:Yes (free text);F023_02:No (free text),Yes
 F023_01,,,Yes (free text),Yes
 F023_02,,,No (free text),Yes
-F024,Would you like to spend more time on your research?,,Time Research,
-F025_01,What are the main obstacles to doing that?,,Obstacles: [01],
-F026_01,Which other regular research related meetings do you attend? ,,Regular Research Meetings: [01],
-F027_01,What activities would you like to see take place within clusters?,,Cluster Activities: [01],
-G001,Are you aware of HPI and University of  Potsdam governing bodies and their role? ,,Governing Bodies,
+F024,Would you like to spend more time on your research?,F024:Yes No,,Yes
+F025,What are the main obstacles to doing that?,F025:Free text,F025:Answers (free text),Yes
+F026,Which other regular research related meetings do you attend? ,F026:Free text,F026:Answers (free text),Yes
+F027,What activities would you like to see take place within clusters?,F027:Free text,F027:Answers (free text),Yes
+G001,Are you aware of HPI and University of  Potsdam governing bodies and their role? ,G001:Yes No Partly,,Yes
 G002,As doctoral student member would you like to participate in such bodies? ,G002:Yes No,G002_01:Yes (free text);G002_02:No (free text),Yes
 G002_01,,,Yes (free text),Yes
 G002_02,,,No (free text),Yes
-G003,Are you aware of the following offices and their roles? ,,Existing Offices,
-G004,Have you faced any difficulty in accessing administrative level resources (HR; IT; Facility Management; Media Support; Studienreferat; etc.),,Accessing Administrative Resources,
-G004_06,,,Accessing Administrative Resources : Yes,
-G005,Did you attend career related events at HPI such as job fairs; HPI Meets? ,,Career Related Events,
-G005_02,,,Career Related Events: No (why not: no interest; not available at the offered times; too busy; prefer a different format.),
-G006,Are you aware of the events and workshops organized by E-school? Mark all that you are aware of. ,,Events/Workshops E-School,
-G006_02,,,Events/Workshops E-School: No (why not: no interest; not available at the offered times; too busy; prefer a different format.),
-G007,Can you imagine launching a start-up?,,Start-Up,
-G007_01,,,Start-Up: Yes,
-G008,Are you aware of the events and workshops organized by D-school? ,,Events/Workshops D-School,
-G009,Are you aware of the events offered by HPI�s International Student and Scholar Services?  There was for example a biweekly global chat and a biweekly PhD and Postdoc Dialogue offered. If you knew about it; but did not attend; why did you not attend? No interest; not available at the offered times; too busy; prefer a different format.,,ISSS,
-G009_02,,,ISSS: No,
-G011,Are you aware of career talks and colloquia organized by your research chair or the Forschungskolleg (Research School)?,,Events Forschungskolleg,
+G003,Are you aware of the following offices and their roles? ,G003:Yes No Partly,,Yes
+G004,Have you faced any difficulty in accessing administrative level resources (HR; IT; Facility Management; Media Support; Studienreferat; etc.),G004:Yes No  FreeText,G004_06:Yes (free text),Yes
+G004_06,,,Yes (free text),Yes
+G005,Did you attend career related events at HPI such as job fairs; HPI Meets? ,G005:Yes No  FreeText,G005_02:No (why not? no interest - not available at the offered times - too busy - prefer a different format.),Yes
+G005_02,,,No (free text),Yes
+G006,Are you aware of the events and workshops organized by E-school? Mark all that you are aware of. ,G006:Yes No FreeText,G006_02:No (why not? no interest - not available at the offered times - too busy - prefer a different format.),Yes
+G006_02,,,No (free text),Yes
+G007,Can you imagine launching a start-up?,G007:Yes No  FreeText,G007_01:Yes (free text),Yes
+G007_01,,,Yes (free text),Yes
+G008,Are you aware of the events and workshops organized by D-school? ,G008:Yes No,Events/Workshops D-School,Yes
+G009,Are you aware of the events offered by HPI�s International Student and Scholar Services?  There was for example a biweekly global chat and a biweekly PhD and Postdoc Dialogue offered. If you knew about it; but did not attend; why did you not attend? No interest; not available at the offered times; too busy; prefer a different format.,G009:Yes No FreeText,G009:No (If you knew about it but did not attend. Why did you not attend? No interest - not available at the offered times - too busy - prefer a different format.),
+G009_02,,,No (freetext),
+G011,Are you aware of career talks and colloquia organized by your research chair or the Forschungskolleg (Research School)?,G011:Yes No,,
 H004,Do you meet regularly with your first supervisor to discuss your progress on the dissertation? ,,Meetings Supervisor,
 H005,Do you find the frequency and the content of these meetings satisfactory? ,,Frequency and Content of Meetings,
 H006,Would you like to see a formal annual review by the first supervisor? ,,Annual Review,
