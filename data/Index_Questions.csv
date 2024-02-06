@@ -108,7 +108,7 @@ G008,Are you aware of the events and workshops organized by D-school? ,G008:Yes 
 G009,Are you aware of the events offered by HPI International Student and Scholar Services?  There was for example a biweekly global chat and a biweekly PhD and Postdoc Dialogue offered. If you knew about it; but did not attend; why did you not attend? No interest; not available at the offered times; too busy; prefer a different format.,G009:Yes No FreeText,G009_02:No (If you knew about it but did not attend. Why did you not attend? No interest - not available at the offered times - too busy - prefer a different format.),Yes,
 G009_02,,,No (freetext),Yes,
 G011,Are you aware of career talks and colloquia organized by your research chair or the Forschungskolleg (Research School)?,G011:Yes No,,Yes,
-H004,Do you meet regularly with your first supervisor to discuss your progress on the dissertation? ,,Meetings Supervisor,,
+H004,Do you meet regularly with your first supervisor to discuss your progress on the dissertation? ,H004:Multiple choice,,,
 H005,Do you find the frequency and the content of these meetings satisfactory? ,,Frequency and Content of Meetings,,
 H006,Would you like to see a formal annual review by the first supervisor? ,,Annual Review,,
 H007,Do you feel the feedback you receive from your supervisor on the quality of your work is sufficient?,,Feedback Quality of Work,,
